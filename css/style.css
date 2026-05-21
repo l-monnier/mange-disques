@@ -1159,6 +1159,9 @@ blockquote {
         border-bottom: 10px solid transparent;
     }
 
+    #banner {
+        background-size: cover !important;
+    }
 }
 
 /* Gallery Styling */
@@ -2105,6 +2108,10 @@ blockquote {
 ===============================*/
 @media (max-width: 480px) {
 
+    #banner {
+      background: none !important;
+    }
+
     #wrapper {
         margin:0;
         padding:0;
@@ -2197,6 +2204,10 @@ blockquote {
 /* Mobile to Tablet Portrait
 ===============================*/
 @media (min-width: 480px) and (max-width: 767px) {
+
+    #banner {
+      background: none !important;
+    }
 
     #wrapper {
         margin:0;
